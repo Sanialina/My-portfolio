@@ -8,9 +8,9 @@ const Page = () => {
       {/* Gratitude Section */}
       <div className="text-center max-w-4xl mb-10">
         <p className="relative text-white font-mono text-sm md:text-xs mt-4 tracking-wider p-4 border-4 border-teal-500 ">
-          "I am deeply thankful to Allah, who supported me through every difficulty, guided me at every turn,
+          I am deeply thankful to Allah, who supported me through every difficulty, guided me at every turn,
            and gave me the strength to move forward whenever I felt stuck. Heartfelt thanks to everyone who has been part of my journey, especially to Governor Sindh Kamran Tessori, a beacon of hope for emerging talent.
-           I am also sincerely grateful to my mentors and guides, whose light has always shown me the way."
+           I am also sincerely grateful to my mentors and guides, whose light has always shown me the way.
         </p>
       </div>
 
@@ -50,9 +50,9 @@ const Page = () => {
         <div className="text-section w-full md:w-1/2 transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-bold mb-2 text-teal-500">Zia Khan</h1>
           <p className="mt-0 text-justify">
-          "Zia Khan, CEO of Panacloud, is a leader in cloud computing in Pakistan.
-           He’s empowering youth by inspiring and mentoring the next generation of tech innovators, 
-           shaping the future of technology in the country."
+          Zia Khan, CEO of Panacloud, is a leader in cloud computing in Pakistan.
+           He&apos;s empowering youth by inspiring and mentoring the next generation of tech innovators, 
+           shaping the future of technology in the country.
            </p>
            <a
             href="https://pk.linkedin.com/in/ziaukhan"
@@ -90,9 +90,9 @@ const Page = () => {
         <div className="text-center md:text-left transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-serif text-teal-500">Daniyal Nagori</h1>
           <p className="mt-1 text-justify max-w-md">
-"CEO of the Governor Sindh IT Initiative and President of the Pakistan IT Initiative, 
+CEO of the Governor Sindh IT Initiative and President of the Pakistan IT Initiative, 
 He is a visionary leader whose journey from humble beginnings to success inspires countless young minds. A trailblazer in tech, he proves that with determination,
- the impossible becomes possible, paving the way for the next generation."
+ the impossible becomes possible, paving the way for the next generation.
           </p>
           <a
             href="https://pk.linkedin.com/in/daniyalnagori"
@@ -150,7 +150,7 @@ He is a visionary leader whose journey from humble beginnings to success inspire
           <h1 className="text-3xl font-serif text-teal-500">Ameen Alam</h1>
           <p className="mt-1 text-justify max-w-md">
           A Global Leader in AI and Cloud Education. He is a young, inspiring force for the next generation. He tirelessly guides his students, helping them believe in their potential and empowering them to turn dreams into reality. 
-          A remarkable leader, he’s shaping the future of tech with passion.
+          A remarkable leader, he&apos;s shaping the future of tech with passion.
           </p>
           <a
             href="https://www.linkedin.com/in/ameen-alam/"
@@ -170,7 +170,7 @@ He is a visionary leader whose journey from humble beginnings to success inspire
           <p className="mt-0 text-justify">
           A top-rated web developer on Upwork and expert in JAMStack, React, and Next.js.
            He is an exceptional mentor who brings learning to life. With a fun and engaging teaching style, he draws students into the world of web development, making complex topics enjoyable and inspiring. 
-           Very young and highly successful, he’s a true role model for aspiring developers, known for his friendly,
+           Very young and highly successful, he&apos;s a true role model for aspiring developers, known for his friendly,
            cooperative approach and genuine passion for helping others succeed.
            </p>
            <a
@@ -210,7 +210,7 @@ He is a visionary leader whose journey from humble beginnings to success inspire
           <h1 className="text-3xl font-serif text-teal-500">Bilal Muhammad Khan</h1>
           <p className="mt-1 text-justify max-w-md">
           Web Application Developer and seasoned IT professional with a wealth of experience. Known for his inspiring personality, he guides students in pursuing their goals and dreams with confidence. A senior mentor in the field,
-           He empowers aspiring developers with both knowledge and motivation to reach new heights in tech. he’s a role model for young developers eager to make their mark in the industry.
+           He empowers aspiring developers with both knowledge and motivation to reach new heights in tech. he&apos;s a role model for young developers eager to make their mark in the industry.
           </p>
           <a
             href="https://www.linkedin.com/in/bilal-muhammad-khan-818523b/"

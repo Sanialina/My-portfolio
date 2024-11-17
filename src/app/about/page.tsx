@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link'; // Import Link from next/link for smooth navigation
+import Link from 'next/link'; 
 
 const About = () => {
   return (
@@ -9,11 +9,11 @@ const About = () => {
         <div className="text-section w-1/2 pr-10 transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-bold mb-4">About Me</h1>
           <p className="mt-4">
-            Welcome to my portfolio! I’m Sania, a dedicated professional on a journey of continuous growth 
+            Welcome to my portfolio! I&apos;m Sania, a dedicated professional on a journey of continuous growth 
             and exploration in the world of technology.
           </p>
           <p className="mt-4">
-            Driven by curiosity and innovation, I'm mastering JavaScript, TypeScript, React, Next.js, HTML, and CSS
+            Driven by curiosity and innovation, I&apos;m mastering JavaScript, TypeScript, React, Next.js, HTML, and CSS
             through advanced courses in AI, Web 3.0, and the Metaverse.
             My experience as a content writer for a USA-based company fuels my passion for creating impactful stories in tech.
           </p>

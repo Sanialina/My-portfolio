@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link'; // Import Link from next/link for smooth navigation
+import Link from 'next/link'; 
 
 const Hero = () => {
   return (
@@ -14,9 +14,9 @@ const Hero = () => {
             Sania Rasheed
           </h2>
           <p className="mt-2 max-w-md transition-opacity duration-700 ease-in-out opacity-0 animate-fade-in">
-            "Welcome to my portfolio! Fueled by a passion for Technology and Education, 
-            I’m dedicated to crafting solutions that inspire, empower, and spark change. 
-            Together, let's unlock new possibilities and shape the future."
+            Welcome to my portfolio! Fueled by a passion for Technology and Education, 
+            I&apos;m dedicated to crafting solutions that inspire, empower, and spark change. 
+            Together, let&apos;s unlock new possibilities and shape the future.
           </p>
 
           {/* More About Me Button */}

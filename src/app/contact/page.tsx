@@ -55,8 +55,8 @@ const Page = () => {
           style={{ width: '250px', height: '250px' }} 
           className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
         />
-        <p className="text-lg text-teal-100 text-center mt-6 mb-6 transition-transform duration-500 ease-in-out transform hover:scale-105">
-          I’d love to hear from you!<br/> Fill out the form and let us connect 👉
+        <p className="text-lg text-white text-center mt-6 mb-6 transition-transform duration-500 ease-in-out transform hover:scale-105">
+          I&apos;d love to hear from you!<br/> Fill out the form and let us connect 
         </p>
         {/* Buttons Container */}
         <div className="flex justify-center space-x-9 mt-8">
