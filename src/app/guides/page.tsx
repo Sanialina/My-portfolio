@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 const Page = () => {
@@ -19,11 +20,12 @@ const Page = () => {
       <div className="flex flex-col md:flex-row items-center md:space-x-10 mt-6">
         {/* Image Section */}
         <div className="mb-10 md:mb-0 mr-20">
-          <img
-            style={{ width: '180px', height: '180px' }}
-            className="rounded-full mt-10 shadow-[0_0_30px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
+          <Image
             src="/g-1.jfif"
             alt="Profile Picture"
+            width={180}
+            height={180}
+            className="rounded-full mt-10 shadow-[0_0_30px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
           />
         </div>
 
@@ -50,11 +52,11 @@ const Page = () => {
         <div className="text-section w-full md:w-1/2 transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-bold mb-2 text-teal-500">Zia Khan</h1>
           <p className="mt-0 text-justify">
-          Zia Khan, CEO of Panacloud, is a leader in cloud computing in Pakistan.
-           He&apos;s empowering youth by inspiring and mentoring the next generation of tech innovators, 
-           shaping the future of technology in the country.
-           </p>
-           <a
+            Zia Khan, CEO of Panacloud, is a leader in cloud computing in Pakistan.
+            He&apos;s empowering youth by inspiring and mentoring the next generation of tech innovators, 
+            shaping the future of technology in the country.
+          </p>
+          <a
             href="https://pk.linkedin.com/in/ziaukhan"
             target="_blank"
             rel="noopener noreferrer"
@@ -66,11 +68,12 @@ const Page = () => {
 
         {/* Image Section */}
         <div className="circle-frame mt-40 md:mt-0">
-          <img 
-            style={{ width: '180px', height: '180px' }} 
-            className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
+          <Image 
             src="/g-2.webp" 
             alt="Profile Picture" 
+            width={180} 
+            height={180} 
+            className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
           />
         </div>
       </div>
@@ -78,11 +81,12 @@ const Page = () => {
       <div className="flex flex-col md:flex-row items-center md:space-x-10 mt-10">
         {/* Image Section */}
         <div className="mb-10 md:mb-0 mr-20">
-          <img
-            style={{ width: '180px', height: '180px' }}
-            className="rounded-full mt-10 shadow-[0_0_30px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
+          <Image
             src="/g-3.jfif"
             alt="Profile Picture"
+            width={180}
+            height={180}
+            className="rounded-full mt-10 shadow-[0_0_30px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
           />
         </div>
 
@@ -90,9 +94,9 @@ const Page = () => {
         <div className="text-center md:text-left transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-serif text-teal-500">Daniyal Nagori</h1>
           <p className="mt-1 text-justify max-w-md">
-CEO of the Governor Sindh IT Initiative and President of the Pakistan IT Initiative, 
-He is a visionary leader whose journey from humble beginnings to success inspires countless young minds. A trailblazer in tech, he proves that with determination,
- the impossible becomes possible, paving the way for the next generation.
+            CEO of the Governor Sindh IT Initiative and President of the Pakistan IT Initiative, 
+            He is a visionary leader whose journey from humble beginnings to success inspires countless young minds. A trailblazer in tech, he proves that with determination,
+            the impossible becomes possible, paving the way for the next generation.
           </p>
           <a
             href="https://pk.linkedin.com/in/daniyalnagori"
@@ -110,10 +114,10 @@ He is a visionary leader whose journey from humble beginnings to success inspire
         <div className="text-section w-full md:w-1/2 transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-bold mb-2 text-teal-500">Muhammad Qasim</h1>
           <p className="mt-0 text-justify">
-        AI Officer at PIAIC and GIAIC, and Chief Officer at Panacloud, is a dynamic leader dedicated to empowering the next generation. With a passion for innovation,
-           he inspires young minds to transform their dreams into reality and drive meaningful change in the tech world.
-           </p>
-           <a
+            AI Officer at PIAIC and GIAIC, and Chief Officer at Panacloud, is a dynamic leader dedicated to empowering the next generation. With a passion for innovation,
+            he inspires young minds to transform their dreams into reality and drive meaningful change in the tech world.
+          </p>
+          <a
             href="https://www.linkedin.com/in/sirqasim/"
             target="_blank"
             rel="noopener noreferrer"
@@ -125,11 +129,12 @@ He is a visionary leader whose journey from humble beginnings to success inspire
 
         {/* Image Section */}
         <div className="circle-frame mt-40 md:mt-0">
-          <img 
-            style={{ width: '180px', height: '180px' }} 
-            className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
+          <Image 
             src="/g-4.jpg" 
             alt="Profile Picture" 
+            width={180} 
+            height={180} 
+            className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
           />
         </div>
       </div>
@@ -137,11 +142,12 @@ He is a visionary leader whose journey from humble beginnings to success inspire
       <div className="flex flex-col md:flex-row items-center md:space-x-10 mt-10">
         {/* Image Section */}
         <div className="mb-10 md:mb-0 mr-20">
-          <img
-            style={{ width: '180px', height: '180px' }}
-            className="rounded-full mt-10 shadow-[0_0_30px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
+          <Image
             src="/g-5.jpg"
             alt="Profile Picture"
+            width={180}
+            height={180}
+            className="rounded-full mt-10 shadow-[0_0_30px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
           />
         </div>
 
@@ -149,8 +155,8 @@ He is a visionary leader whose journey from humble beginnings to success inspire
         <div className="text-center md:text-left transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-serif text-teal-500">Ameen Alam</h1>
           <p className="mt-1 text-justify max-w-md">
-          A Global Leader in AI and Cloud Education. He is a young, inspiring force for the next generation. He tirelessly guides his students, helping them believe in their potential and empowering them to turn dreams into reality. 
-          A remarkable leader, he&apos;s shaping the future of tech with passion.
+            A Global Leader in AI and Cloud Education. He is a young, inspiring force for the next generation. He tirelessly guides his students, helping them believe in their potential and empowering them to turn dreams into reality. 
+            A remarkable leader, he&apos;s shaping the future of tech with passion.
           </p>
           <a
             href="https://www.linkedin.com/in/ameen-alam/"
@@ -166,14 +172,15 @@ He is a visionary leader whose journey from humble beginnings to success inspire
       <div className="flex flex-col md:flex-row items-center justify-between max-w-2xl mt-20 space-y-10 md:space-y-0 md:space-x-10">
         {/* Text Section */}
         <div className="text-section w-full md:w-1/2 transition-transform duration-500 ease-in-out transform hover:scale-105">
-          <h1 className="text-3xl font-bold mb-2 text-teal-500">Hamzah syed</h1>
+          <h1 className="text-3xl font-bold mb-2 text-teal-500">Hamzah Syed</h1>
           <p className="mt-0 text-justify">
-          A top-rated web developer on Upwork and expert in JAMStack, React, and Next.js.
-           He is an exceptional mentor who brings learning to life. With a fun and engaging teaching style, he draws students into the world of web development, making complex topics enjoyable and inspiring. 
-           Very young and highly successful, he&apos;s a true role model for aspiring developers, known for his friendly,
-           cooperative approach and genuine passion for helping others succeed.
-           </p>
-           <a
+            A top-rated web developer on Upwork and expert in JAMStack, React, and Next.js. 
+            He is an exceptional mentor who brings learning to life. With a fun and engaging teaching style, 
+            he draws students into the world of web development, making complex topics enjoyable and inspiring.
+            Very young and highly successful, he&apos;s a true role model for aspiring developers, known for his friendly,
+            cooperative approach and genuine passion for helping others succeed.
+          </p>
+          <a
             href="https://www.linkedin.com/in/webdeveloper-react-jamstack-expert/"
             target="_blank"
             rel="noopener noreferrer"
@@ -185,11 +192,12 @@ He is a visionary leader whose journey from humble beginnings to success inspire
 
         {/* Image Section */}
         <div className="circle-frame mt-40 md:mt-0">
-          <img 
-            style={{ width: '180px', height: '180px' }} 
-            className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
+          <Image 
             src="/g-6.jpg" 
-            alt="Profile Picture" 
+            alt="Hamzah Syed" 
+            width={180} 
+            height={180} 
+            className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
           />
         </div>
       </div>
@@ -197,11 +205,12 @@ He is a visionary leader whose journey from humble beginnings to success inspire
       <div className="flex flex-col md:flex-row items-center md:space-x-10 mt-10">
         {/* Image Section */}
         <div className="mb-10 md:mb-0 mr-20">
-          <img
-            style={{ width: '180px', height: '180px' }}
-            className="rounded-full mt-10 shadow-[0_0_30px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
+          <Image
             src="/g-7.jpg"
-            alt="Profile Picture"
+            alt="Bilal Muhammad Khan"
+            width={180}
+            height={180}
+            className="rounded-full mt-10 shadow-[0_0_30px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
           />
         </div>
 
@@ -209,8 +218,9 @@ He is a visionary leader whose journey from humble beginnings to success inspire
         <div className="text-center md:text-left transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-serif text-teal-500">Bilal Muhammad Khan</h1>
           <p className="mt-1 text-justify max-w-md">
-          Web Application Developer and seasoned IT professional with a wealth of experience. Known for his inspiring personality, he guides students in pursuing their goals and dreams with confidence. A senior mentor in the field,
-           He empowers aspiring developers with both knowledge and motivation to reach new heights in tech. he&apos;s a role model for young developers eager to make their mark in the industry.
+            Web Application Developer and seasoned IT professional with a wealth of experience. Known for his inspiring personality, 
+            he guides students in pursuing their goals and dreams with confidence. A senior mentor in the field, 
+            He empowers aspiring developers with both knowledge and motivation to reach new heights in tech. he&apos;s a role model for young developers eager to make their mark in the industry.
           </p>
           <a
             href="https://www.linkedin.com/in/bilal-muhammad-khan-818523b/"
@@ -228,10 +238,10 @@ He is a visionary leader whose journey from humble beginnings to success inspire
         <div className="text-section w-full md:w-1/2 transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-bold mb-2 text-teal-500">Aneeq Khatri</h1>
           <p className="mt-0 text-justify">
-          A talented Full Stack Developer, specializing in the MERN and JAM Stacks, with a keen interest in AI, Cloud, and Blockchain technologies. An inspiring mentor, he empowers students to pursue their goals and reach new heights in tech. With his engaging teaching style and depth of knowledge.
-           
-           </p>
-           <a
+            A talented Full Stack Developer, specializing in the MERN and JAM Stacks, with a keen interest in AI, Cloud, and Blockchain technologies. 
+            An inspiring mentor, he empowers students to pursue their goals and reach new heights in tech. With his engaging teaching style and depth of knowledge.
+          </p>
+          <a
             href="https://www.linkedin.com/in/aneeq-khatri-30b529240/"
             target="_blank"
             rel="noopener noreferrer"
@@ -243,11 +253,12 @@ He is a visionary leader whose journey from humble beginnings to success inspire
 
         {/* Image Section */}
         <div className="circle-frame mt-40 md:mt-0">
-          <img 
-            style={{ width: '180px', height: '180px' }} 
-            className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
+          <Image 
             src="/g-8.jpg" 
-            alt="Profile Picture" 
+            alt="Aneeq Khatri" 
+            width={180} 
+            height={180} 
+            className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
           />
         </div>
       </div>
@@ -255,11 +266,12 @@ He is a visionary leader whose journey from humble beginnings to success inspire
       <div className="flex flex-col md:flex-row items-center md:space-x-10 mt-10">
         {/* Image Section */}
         <div className="mb-10 md:mb-0 mr-20">
-          <img
-            style={{ width: '180px', height: '180px' }}
-            className="rounded-full mt-10 shadow-[0_0_30px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
+          <Image
             src="/g-9.jpg"
-            alt="Profile Picture"
+            alt="Okasha Aijaz"
+            width={180}
+            height={180}
+            className="rounded-full mt-10 shadow-[0_0_30px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
           />
         </div>
 
@@ -267,8 +279,9 @@ He is a visionary leader whose journey from humble beginnings to success inspire
         <div className="text-center md:text-left transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-serif text-teal-500">Okasha Aijaz</h1>
           <p className="mt-1 text-justify max-w-md">
-           A Full Stack Developer with expertise in MERN, SQL, NextJS 13, JavaScript, TypeScript, and Blockchain. Despite his young age, he has already achieved great success in the IT field. As a mentor, he inspires and guides others to pursue their dreams with determination and confidence. With a vibrant personality and a passion for teaching,
-           he helps students navigate the tech world, empowering them to reach their full potential.
+            A Full Stack Developer with expertise in MERN, SQL, NextJS 13, JavaScript, TypeScript, and Blockchain. Despite his young age, 
+            he has already achieved great success in the IT field. As a mentor, he inspires and guides others to pursue their dreams with determination and confidence. 
+            With a vibrant personality and a passion for teaching, he helps students navigate the tech world, empowering them to reach their full potential.
           </p>
           <a
             href="https://www.linkedin.com/in/okasha-aijaz/"
@@ -286,10 +299,11 @@ He is a visionary leader whose journey from humble beginnings to success inspire
         <div className="text-section w-full md:w-1/2 transition-transform duration-500 ease-in-out transform hover:scale-105">
           <h1 className="text-3xl font-bold mb-2 text-teal-500">Muhammad Bilal Khan</h1>
           <p className="mt-0 text-justify">
-          A Full Stack Developer with expertise in the MERN Stack, Next.js, and React.js, dedicated to crafting innovative solutions for web development. As an exceptional mentor, he makes learning IT both fun and engaging, using his dynamic personality to simplify complex topics. His ability to connect with students
-           and make difficult concepts easy to understand has made him a beloved guide for aspiring developers in the tech field.
-           </p>
-           <a
+            A Full Stack Developer with expertise in the MERN Stack, Next.js, and React.js, dedicated to crafting innovative solutions for web development. 
+            As an exceptional mentor, he makes learning IT both fun and engaging, using his dynamic personality to simplify complex topics. 
+            His ability to connect with students and make difficult concepts easy to understand has made him a beloved guide for aspiring developers in the tech field.
+          </p>
+          <a
             href="https://www.linkedin.com/in/developerbilalkhan/"
             target="_blank"
             rel="noopener noreferrer"
@@ -301,11 +315,12 @@ He is a visionary leader whose journey from humble beginnings to success inspire
 
         {/* Image Section */}
         <div className="circle-frame mt-40 md:mt-0">
-          <img 
-            style={{ width: '180px', height: '180px' }} 
-            className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
+          <Image 
             src="/g-10.jpg" 
-            alt="Profile Picture" 
+            alt="Muhammad Bilal Khan" 
+            width={180} 
+            height={180} 
+            className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
           />
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link'; 
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -36,15 +37,18 @@ const Hero = () => {
 </div>
 
         </div>
-        
-        {/* Image Section */}
-        <div className="circle-frame mt-12">
-          <img
-            className="w-40 h-40 rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 transform hover:rotate-y-180"
-            src="/profile.jpg"
-            alt="Profile Picture"
-          />
-        </div>
+
+{/* Image Section */}
+<div className="circle-frame mt-12">
+  <Image
+    className="w-40 h-40 rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 transform hover:rotate-y-180"
+    src="/profile.jpg"
+    alt="Profile Picture"
+    width={160} // Adjust width as needed
+    height={160} // Adjust height as needed
+  />
+</div>
+
       </div>
     </div>
   );

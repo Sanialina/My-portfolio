@@ -1,10 +1,11 @@
 'use client';
 
 import React, { useState } from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';  // Corrected import for Image component
 import emailjs from 'emailjs-com';
 
-const Page = () => {
+const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -25,15 +26,15 @@ const Page = () => {
 
     // Send email using emailjs
     emailjs.send(
-      'service_acl9l2a',        // Your Service ID
-      'template_03mwo9y',       // Your Template ID
+      'service_acl9l2a',        // Service ID
+      'template_03mwo9y',       // Template ID
       {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
         reply_to: formData.email,
       },
-      'kO2kI8RX-5z7UgX4g'       // Your Public Key
+      'kO2kI8RX-5z7UgX4g'       // Public Key
     )
     .then((response) => {
       console.log('Message sent successfully', response);
@@ -49,14 +50,15 @@ const Page = () => {
     <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-black pt-20 gap-40 ">
       {/* Left Side - Image */}
       <div className="circle-frame mb-8 md:mb-0 mt-0">
-        <img 
-          src="/pic-5.jpg" 
-          alt="Profile Picture" 
-          style={{ width: '250px', height: '250px' }} 
-          className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
+        <Image
+          src="/pic-5.jpg"  // Corrected path and Image component usage
+          alt="Profile Picture"
+          width={250}
+          height={250}
+          className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
         />
         <p className="text-lg text-white text-center mt-6 mb-6 transition-transform duration-500 ease-in-out transform hover:scale-105">
-          I&apos;d love to hear from you!<br/> Fill out the form and let us connect 
+          I&apos;d love to hear from you!<br/> Fill out the form and let us connect
         </p>
         {/* Buttons Container */}
         <div className="flex justify-center space-x-9 mt-8">
@@ -154,4 +156,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default ContactPage;
