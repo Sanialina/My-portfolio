@@ -15,8 +15,6 @@
     }
 
     .circle-frame img {
-        width: 190px;
-        height: 190px;
         border-radius: 50%;
         object-fit: cover;
         border: 2px solid #0f0f0f;

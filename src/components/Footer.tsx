@@ -5,9 +5,9 @@ import { MdOutlineMail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="bg-teal-700 text-white py-3 mt-10">
+    <footer className="bg-teal-700 text-white py-2 mt-6">
       <div className="container mx-auto text-center">
-        <p className="mb-4">Connect with me:</p>
+        <p className="mb-4 text-2xl">Connect with me:</p>
         <div className="flex justify-center space-x-6">
           
           {/* Instagram Link */}
@@ -17,7 +17,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-pink-500"
           >
-            <FaInstagram size={30} />
+            <FaInstagram size={40} />
           </a>
           
           {/* YouTube Link */}
@@ -27,7 +27,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-red-500"
           >
-            <CiYoutube size={30} />
+            <CiYoutube size={40} />
           </a>
 
           {/* LinkedIn Link */}
@@ -37,7 +37,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-blue-500"
           >
-            <FaLinkedin size={30} />
+            <FaLinkedin size={40} />
           </a>
 
           {/* Email Link */}
@@ -45,12 +45,12 @@ const Footer = () => {
             href="mailto:sanialina112@gmail.com"
             className="hover:text-gray-600 flex gap-1 items-center"
           >
-            <MdOutlineMail size={30} />
+            <MdOutlineMail size={40} />
           </a>
         </div>
         
         {/* Footer text */}
-        <p className="mt-4 text-sm">&copy; 2024 Sania Rasheed. All rights reserved.</p>
+        <p className="mt-4 text-lg">&copy; 2024 Sania Rasheed. All rights reserved.</p>
       </div>
     </footer>
   );

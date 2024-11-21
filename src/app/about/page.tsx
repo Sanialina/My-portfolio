@@ -4,31 +4,31 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <div className="container mx-auto p-10">
+    <div className="container mx-auto p-20">
       {/* About Section */}
       <div className="flex items-start">
         <div className="text-section w-1/2 pr-10 transition-transform duration-500 ease-in-out transform hover:scale-105">
-          <h1 className="text-3xl font-bold mb-4">About Me</h1>
-          <p className="mt-4">
+          <h1 className="text-4xl font-bold mb-6">About Me</h1>
+          <p className="mt-4 text-2xl">
             Welcome to my portfolio! I&apos;m Sania, a dedicated professional on a journey of continuous growth 
             and exploration in the world of technology.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 text-2xl">
             Driven by curiosity and innovation, I&apos;m mastering JavaScript, TypeScript, React, Next.js, HTML, and CSS
             through advanced courses in AI, Web 3.0, and the Metaverse.
             My experience as a content writer for a USA-based company fuels my passion for creating impactful stories in tech.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 text-2xl">
             Always eager for new challenges, I embrace opportunities to innovate and inspire. 
             Join me as I explore this exciting landscape!
           </p>
         </div>
 
-        <div className="circle-frame ml-20 mt-10">
+        <div className="circle-frame ml-40 mt-20">
           <Image
             src="/pic-1.jpg"
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             alt="Profile Picture"
             className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
           />
@@ -40,7 +40,7 @@ const About = () => {
         <h2 className="text-7xl text-teal-600 font-serif pt-8 transition-opacity duration-500 ease-in-out opacity-0 animate-fadeIn">
           My Skills
         </h2>
-        <div className="grid grid-cols-4 gap-6 mt-20 ml-10">
+        <div className="grid grid-cols-4 gap-4 mt-20 ml-10">
           {[
             { src: "/img-1.png", alt: "JavaScript", label: "JavaScript" },
             { src: "/img-3.png", alt: "HTML", label: "HTML" },
@@ -59,16 +59,16 @@ const About = () => {
               key={index}
               className="flex flex-col items-center transition-transform duration-500 ease-in-out transform hover:scale-110"
             >
-              <div className="w-20 h-20 flex items-center justify-center shadow-[0_0_15px_10px] shadow-teal-500 rounded-lg">
+              <div className="w-28 h-28 flex items-center justify-center shadow-[0_0_15px_10px] shadow-teal-500 rounded-lg">
                 <Image
                   src={skill.src}
                   alt={skill.alt}
-                  width={80}
-                  height={80}
+                  width={100}
+                  height={100}
                   className="object-contain"
                 />
               </div>
-              <p className="mt-5 mb-8 text-lg text-white">{skill.label}</p>
+              <p className="mt-5 mb-8 text-2xl text-white">{skill.label}</p>
             </div>
           ))}
         </div>
@@ -76,7 +76,7 @@ const About = () => {
         {/* Explore My Journey Button */}
         <div className="mt-12 text-center">
           <Link href="/projects">
-            <button className="px-4 py-2 bg-black text-white text-sm font-bold rounded-lg border-2 border-teal-500 relative overflow-hidden group">
+            <button className="px-6 py-4 bg-black text-white text-lg font-bold rounded-lg border-2 border-teal-500 relative overflow-hidden group">
               <span className="absolute inset-0 bg-gradient-to-r from-transparent to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out animate-light-travel"></span>
               <span className="relative">Explore my Journey</span>
             </button>

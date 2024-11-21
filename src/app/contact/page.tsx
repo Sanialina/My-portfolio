@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';  // Corrected import for Image component
+import Image from 'next/image';  
 import emailjs from 'emailjs-com';
 
 const ContactPage = () => {
@@ -53,18 +53,18 @@ const ContactPage = () => {
         <Image
           src="/pic-5.jpg"  // Corrected path and Image component usage
           alt="Profile Picture"
-          width={250}
-          height={250}
+          width={300}
+          height={300}
           className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110"
         />
-        <p className="text-lg text-white text-center mt-6 mb-6 transition-transform duration-500 ease-in-out transform hover:scale-105">
+        <p className="text-2xl text-white text-center mt-6 mb-6 transition-transform duration-500 ease-in-out transform hover:scale-105">
           I&apos;d love to hear from you!<br/> Fill out the form and let us connect
         </p>
         {/* Buttons Container */}
         <div className="flex justify-center space-x-9 mt-8">
           {/* Discover My Success Button */}
           <Link href="/guides">
-            <button className="px-1 py-2 bg-black text-white text-xs font-bold rounded-lg border-2 border-teal-500 relative overflow-hidden group">
+            <button className="px-1 py-2 bg-black text-white text-lg font-bold rounded-lg border-2 border-teal-500 relative overflow-hidden group">
               <span className="absolute inset-0 bg-gradient-to-r from-transparent to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out animate-light-travel"></span>
               <span className="relative">Discover my Success</span>
             </button>
@@ -72,7 +72,7 @@ const ContactPage = () => {
 
           {/* Download Resume Button */}
           <Link href="https://resume-rho-gold.vercel.app/">
-            <button className="px-2 py-2 bg-black text-white text-xs font-bold rounded-lg border-2 border-teal-500 relative overflow-hidden group">
+            <button className="px-2 py-2 bg-black text-white text-lg font-bold rounded-lg border-2 border-teal-500 relative overflow-hidden group">
               <span className="absolute inset-0 bg-gradient-to-r from-transparent to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out animate-light-travel"></span>
               <span className="relative">Download Resume</span>
             </button>
@@ -81,14 +81,14 @@ const ContactPage = () => {
       </div>
 
       {/* Right Side - Contact Form */}
-      <div className="md:w-1/3 w-full bg-gray-900 p-3 rounded-lg shadow-md transition-transform duration-500 ease-in-out transform hover:scale-105">
-        <h1 className="text-4xl font-bold text-teal-400 mb-6 text-center md:text-left">
+      <div className="md:w-1/3 w-full bg-gray-900 p-6 rounded-lg shadow-md transition-transform duration-500 ease-in-out transform hover:scale-105">
+        <h1 className="text-5xl font-bold text-teal-400 mb-6 text-center md:text-left">
           Get in Touch
         </h1>
         <form onSubmit={handleSubmit} className="space-y-3">
           {/* Name Field */}
           <div className="relative">
-            <label htmlFor="name" className="block text-sm font-medium text-gray-300">
+            <label htmlFor="name" className="block text-lg font-medium text-gray-300">
               Name
             </label>
             <input
@@ -104,7 +104,7 @@ const ContactPage = () => {
 
           {/* Email Field */}
           <div className="relative">
-            <label htmlFor="email" className="block text-sm font-medium text-gray-300">
+            <label htmlFor="email" className="block text-lg font-medium text-gray-300">
               Email
             </label>
             <input
@@ -120,7 +120,7 @@ const ContactPage = () => {
 
           {/* Message Field */}
           <div className="relative">
-            <label htmlFor="message" className="block text-sm font-medium text-gray-300">
+            <label htmlFor="message" className="block text-lg font-medium text-gray-300">
               Message
             </label>
             <textarea
@@ -138,7 +138,7 @@ const ContactPage = () => {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="px-6 py-2 bg-teal-600 text-white rounded-md hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="px-6 py-2 text-2xl bg-teal-600 text-white rounded-md hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
             >
               Send Message
             </button>
