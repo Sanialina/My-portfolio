@@ -87,6 +87,34 @@ const Page = () => {
         </div>
       </div>
 
+      {/* New Section after Experience */}
+<div className="flex items-center mt-20">
+  {/* Image section on the left */}
+  <div className="circle-frame  mr-60 mt-20 ml-10">
+    <Image  
+      style={{ width: '300px', height: '300px' }} 
+      className="rounded-full shadow-[0_0_50px_20px] shadow-teal-700/80 transition-transform duration-500 ease-in-out transform hover:scale-110" 
+      src="/pic-4.jpg" 
+      alt="YouTube Journey Image" 
+      width={250} 
+      height={250} 
+    />
+    <h1 className="text-center mt-6 text-4xl font-semibold text-teal-500">AI Planet</h1>
+  </div>
+
+  {/* Text section on the right */}
+  <div className="flex-1 transition-transform duration-500 ease-in-out transform hover:scale-105">
+    <h2 className="text-4xl font-serif text-teal-500 mt-20">My YouTube Journey</h2>
+    <p className="mt-2 text-justify text-2xl mr-40">
+    I started my YouTube channel with the simple goal of helping others navigate IT tests and courses.
+     Alhamdulillah, within a month, my channel was monetized, a milestone that fills me with immense pride.
+      It has been a journey of countless sleepless nights and hard work, but the incredible response from my audience has made it all worthwhile. Here&apos;s a glimpse of my YouTube journey.
+
+
+    </p>
+  </div>
+</div>
+
       {/* Video Section */}
       <div className="flex justify-center flex-col items-center mt-20">
         <iframe 
